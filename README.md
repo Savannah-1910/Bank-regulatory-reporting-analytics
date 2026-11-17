@@ -102,7 +102,7 @@ Flow ratios use the **single quarter, annualized**, over a 2-point average balan
 
 `fct_peer_benchmark` gives every bank, quarter and metric a peer median, P25/P75, peer-group median, rank and a direction-aware percentile (100 = best). `fct_focus_scorecard` is JPM's latest-quarter scorecard.
 
-Tableau Public dashboard: **[JPM Peer Benchmark](https://public.tableau.com/app/profile/savannah.bai/viz/JPMPeerBenchmark2/Overview)**. Build steps are in [`docs/tableau_guide.md`](docs/tableau_guide.md).
+Tableau Public dashboard: **[JPM Peer Benchmark](https://public.tableau.com/app/profile/savannah.bai/viz/JPMPeerBenchmark/Overview)**. Build steps are in [`docs/tableau_guide.md`](docs/tableau_guide.md).
 
 ---
 
