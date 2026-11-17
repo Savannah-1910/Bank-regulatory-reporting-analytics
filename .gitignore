@@ -13,5 +13,5 @@ venv/
 ~$*
 .DS_Store
 
-# Personal interview prep notes - keep local, not for the public repo
+# Local notes (not part of the project)
 docs/interview_notes_zh.md

@@ -108,17 +108,15 @@ Tableau Public dashboard: **[JPM Peer Benchmark](https://public.tableau.com/app/
 
 ## Key findings
 
-<!--
-  Write this section yourself, in your own words. output/pipeline_summary.md has the facts.
-  Suggested angles:
-   - Data integrity: what tied and what didn't, and why (unearned income, ASU 2016-01 / CECL securities, YTD breaks at charter mergers)
-   - The open exceptions: 2020Q1 asset jumps at custody/IB banks (BK, STT, SCHW, MS, GS) – what happened in March 2020?
-   - RS01: why can insured + uninsured deposit estimates differ from balance-sheet deposits (HBAN up to 40%)?
-   - JPM vs peers: top-quartile ROE/ROA and CET1, but bottom-quartile leverage ratio and NCO rate – how do these fit together?
-   - A variance you find interesting (e.g. JPM 2026Q2 net income driven by securities gains; BMO US 2026Q2 loss)
--->
+**1. The filings tie out, once two reporting rules are applied.** 28 of the 32 checks pass on all 680 filings. Two identities only tied after reading the reporting instructions: loan categories are reported gross of unearned income while total loans are net of it (summing the categories alone breaks on 96 of 760 filings), and total securities include equity securities at fair value (ASU 2016-01), net of the HTM allowance (CECL). All 41 YTD de-cumulation breaks (XP01) fall in quarters where a bank merged in another charter, and each is matched to an FDIC structure event. The 67 deposit-insurance warnings (RS01, mostly HBAN and FITB before 2023) are still open.
 
-_TODO_
+**2. March 2020 shows up as a flight to cash at custody banks and brokers.** In 2020Q1 total assets jumped 48% at State Street, 24–25% at BNY and Schwab, and 22–28% at the two Morgan Stanley banks, the largest QoQ moves in the data. Deposit inflows account for most of it (BNY: deposits +$74B vs. assets +$76B; Schwab: +$46B vs. +$54B; State Street: +$76B vs. +$117B). State Street gave back 23% of its assets in 2020Q2. The extra assets also diluted leverage: Schwab's Tier 1 leverage ratio fell from 6.9% to 5.5% by 2020Q4, within 1pp of the 5% well-capitalized line.
+
+**3. JPM has top-quartile CET1 but bottom-quartile leverage: same capital, different denominators.** At 2026Q2, JPM's CET1 ratio is 15.0% (5th of 20) while its Tier 1 leverage ratio is 7.5% (16th). The gap comes from RWA density: risk-weighted assets are only 49% of total assets (peer median 63%), because 37% of the balance sheet is cash, securities and reverse repos with low risk weights. The two ratios are linked: leverage ratio ÷ RWA density = 7.49% ÷ 0.492 ≈ 15.2%, close to the reported CET1 ratio (Tier 1 capital equals CET1 at this bank).
+
+**4. JPM shows higher losses but holds reserves to match.** JPM's net charge-off rate (0.61%) and 30–89 day delinquency rate rank in the bottom quartile, while its reserve coverage of noncurrent loans (213%) ranks 4th of 20. This fits its loan mix: credit cards are $216B, about 14% of gross loans, and card portfolios run higher loss rates than secured lending.
+
+**5. A one-time item drove JPM's 2026Q2 earnings.** Net income rose $3.4B (+24%) QoQ, but securities gains alone added $4.2B pre-tax (from $81M to $4.3B), alongside a jump in equity securities from $0.7B to $4.0B. Without that line the quarter would have been roughly flat. A flux review has to separate recurring drivers from one-time items before reading a headline move.
 
 ---
 
