@@ -9,18 +9,17 @@
 
 ## 0. 连接数据
 
-1. Tableau Public → **Connect → To a File → Text file**,先选 `bank_quarter_metrics.csv`。
-2. 在数据源页面把其他 CSV 拖进画布。Tableau 会建 **Relationship**(不是 join),关系字段设成 `cert`:
-   - `bank_quarter_metrics` ↔ `banks`(cert)
-   - `peer_benchmark`、`variance_analysis`、`exception_report` 各自也用 cert 和 banks 关联
-   - `focus_scorecard`、`recon_rule_summary` 不需要关联,单独用
+每个 CSV 都已经带了银行简称(`short_name`)和 peer group,所以**不用建关系**:每个 CSV 单独作为一个数据源连接就行,更简单,也不容易出现重复计算。
+
+1. Tableau Public → **Connect → To a File → Text file**,选 `peer_benchmark.csv`(第 1 页主要用它)。
+2. 以后要用其他文件时,点 **Data → New Data Source → Text file** 再连一个。需要连的有:`focus_scorecard.csv`、`variance_analysis.csv`、`exception_report.csv`、`recon_rule_summary.csv`。
 3. 检查数据类型:`report_date` 是 Date,`is_material` / `is_focus_bank` 是 Boolean,`pct_change` 是 Number。
 
 建议建的计算字段:
 
 | 名称 | 公式 | 用途 |
 |---|---|---|
-| `Bank Highlight` | `IF [is_focus_bank] THEN "JPM" ELSE "Peers" END` | 颜色:JPM 高亮,同业灰色 |
+| `Bank Highlight` | `IF [short_name] = "JPM" THEN "JPM" ELSE "Peers" END` | 颜色:JPM 高亮,同业灰色(每个数据源都可以建) |
 | `Pct Change Label` | `IF ISNULL([pct_change]) THEN "n.m." ELSE STR(ROUND([pct_change]*100,1)) + "%" END` | 差异表显示 |
 | `Is Latest Quarter` | `[report_date] = {FIXED : MAX([report_date])}` | 默认只看最新季度 |
 
