@@ -1,0 +1,9 @@
+{
+ "extracted_at_utc": "2026-11-17T03:50:17+00:00",
+ "api_base": "https://banks.data.fdic.gov/api",
+ "latest_report_date": "20260630",
+ "extract_start": "20170331",
+ "top_n": 20,
+ "record_count": 760,
+ "field_count": 97
+}

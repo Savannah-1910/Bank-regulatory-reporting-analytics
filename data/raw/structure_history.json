@@ -1,0 +1,474 @@
+[
+ {
+  "CHANGECODE_DESC": "Participated in FDIC Assisted Merger",
+  "CHANGECODE": 811,
+  "OUT_INSTNAME": "Harvest Community Bank",
+  "EFFDATE": "2017-01-13T00:00:00",
+  "OUT_CERT": 34951,
+  "CERT": 11063,
+  "ID": "201700151_811_7078_7078_62125"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in FDIC Assisted Merger",
+  "CHANGECODE": 811,
+  "OUT_INSTNAME": "Guaranty Bank",
+  "EFFDATE": "2017-05-05T00:00:00",
+  "OUT_CERT": 30003,
+  "CERT": 11063,
+  "ID": "201701723_811_7078_7078_42837"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Scottrade Bank",
+  "EFFDATE": "2017-09-18T00:00:00",
+  "OUT_CERT": 58656,
+  "CERT": 18409,
+  "ID": "201708103_810_12315_12315_461750"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "HomeBanc",
+  "EFFDATE": "2018-04-30T00:00:00",
+  "OUT_CERT": 58194,
+  "CERT": 11063,
+  "ID": "201803618_810_7078_7078_441850"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Securant Bank & Trust",
+  "EFFDATE": "2018-10-02T00:00:00",
+  "OUT_CERT": 12515,
+  "CERT": 11063,
+  "ID": "201810391_810_7078_7078_7963"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Palmetto Heritage Bank & Trust",
+  "EFFDATE": "2018-11-01T00:00:00",
+  "OUT_CERT": 57880,
+  "CERT": 11063,
+  "ID": "201810392_810_7078_7078_428856"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Citizens Bank of Pennsylvania",
+  "EFFDATE": "2019-01-02T00:00:00",
+  "OUT_CERT": 57282,
+  "CERT": 57957,
+  "ID": "201900089_810_432614_432614_360602"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Biscayne Bank",
+  "EFFDATE": "2019-04-01T00:00:00",
+  "OUT_CERT": 57973,
+  "CERT": 11063,
+  "ID": "201902930_810_7078_7078_432837"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "First South Bank",
+  "EFFDATE": "2019-05-01T00:00:00",
+  "OUT_CERT": 34222,
+  "CERT": 11063,
+  "ID": "201903698_810_7078_7078_56981"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "MB Financial Bank, National Association",
+  "EFFDATE": "2019-05-04T00:00:00",
+  "OUT_CERT": 3628,
+  "CERT": 6672,
+  "ID": "201903652_810_4470_4470_2312"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Chase Bank USA, National Association",
+  "EFFDATE": "2019-05-18T00:00:00",
+  "OUT_CERT": 23702,
+  "CERT": 628,
+  "ID": "201904689_810_417_417_16580"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "SunTrust Bank",
+  "EFFDATE": "2019-12-07T00:00:00",
+  "OUT_CERT": 867,
+  "CERT": 9846,
+  "ID": "201911532_810_6300_6300_550"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Entegra Bank",
+  "EFFDATE": "2019-12-31T00:00:00",
+  "OUT_CERT": 31445,
+  "CERT": 11063,
+  "ID": "202013602_810_7078_7078_44279"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Gwinnett Community Bank",
+  "EFFDATE": "2020-02-01T00:00:00",
+  "OUT_CERT": 35249,
+  "CERT": 11063,
+  "ID": "202000820_810_7078_7078_76806"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Recontrust Company, National Association",
+  "EFFDATE": "2020-03-31T00:00:00",
+  "OUT_CERT": 58026,
+  "CERT": 3510,
+  "ID": "202003220_810_2238_2238_434076"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "TCF National Bank",
+  "EFFDATE": "2021-06-09T00:00:00",
+  "OUT_CERT": 28330,
+  "CERT": 6560,
+  "ID": "202111404_810_4390_4390_41164"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "BBVA USA",
+  "EFFDATE": "2021-10-08T00:00:00",
+  "OUT_CERT": 19048,
+  "CERT": 6384,
+  "ID": "202125721_810_4287_4287_12885"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "E*TRADE Bank",
+  "EFFDATE": "2022-01-01T00:00:00",
+  "OUT_CERT": 30746,
+  "CERT": 34221,
+  "ID": "2022000521_810_56980_56980_43580"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "First-Citizens Bank & Trust Company",
+  "CHANGECODE": 820,
+  "EFFDATE": "2022-01-04T00:00:00",
+  "CERT": 11063,
+  "ID": "2022000520_820_7078__"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "CIT Bank, National Association",
+  "EFFDATE": "2022-01-04T00:00:00",
+  "OUT_CERT": 58978,
+  "CERT": 11063,
+  "ID": "2022000522_810_7078_7078_489490"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Investors Bank",
+  "EFFDATE": "2022-04-07T00:00:00",
+  "OUT_CERT": 28892,
+  "CERT": 57957,
+  "ID": "2022008139_810_432614_432614_41726"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Department Stores National Bank",
+  "EFFDATE": "2022-07-01T00:00:00",
+  "OUT_CERT": 58180,
+  "CERT": 7213,
+  "ID": "2022018412_810_4759_4759_441397"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Capital One Bank (USA), National Association",
+  "EFFDATE": "2022-10-03T00:00:00",
+  "OUT_CERT": 33954,
+  "CERT": 4297,
+  "ID": "2022054241_810_2818_2818_55326"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Bank of the West",
+  "EFFDATE": "2023-02-02T00:00:00",
+  "OUT_CERT": 3514,
+  "CERT": 16571,
+  "ID": "2023012824_810_10718_10718_2240"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Silicon Valley Bridge Bank, National Association",
+  "EFFDATE": "2023-03-26T00:00:00",
+  "OUT_CERT": 59334,
+  "CERT": 11063,
+  "ID": "2023013168_810_7078_7078_655057"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in FDIC Assisted Merger",
+  "CHANGECODE": 811,
+  "OUT_INSTNAME": "First Republic Bank",
+  "EFFDATE": "2023-05-01T00:00:00",
+  "OUT_CERT": 59017,
+  "CERT": 628,
+  "ID": "2023160984_811_417_417_497251"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "MUFG Union Bank, National Association",
+  "EFFDATE": "2023-05-26T00:00:00",
+  "OUT_CERT": 22826,
+  "CERT": 6548,
+  "ID": "2023166642_810_4383_4383_15944"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "JPMorgan Chase Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2024-11-01T00:00:00",
+  "CERT": 628,
+  "ID": "2024029728_820_417__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Fifth Third Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2024-12-01T00:00:00",
+  "CERT": 6672,
+  "ID": "2025013531_820_4470__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "The Huntington National Bank",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-02-01T00:00:00",
+  "CERT": 6560,
+  "ID": "2025005155_820_4390__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "JPMorgan Chase Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-02-01T00:00:00",
+  "CERT": 628,
+  "ID": "2025005514_820_417__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-03-31T00:00:00",
+  "CERT": 16571,
+  "ID": "2025008106_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Discover Bank",
+  "EFFDATE": "2025-05-18T00:00:00",
+  "OUT_CERT": 5649,
+  "CERT": 4297,
+  "ID": "2025013888_810_2818_2818_3844"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014079_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014080_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014081_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014082_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014083_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "BMO Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-05-19T00:00:00",
+  "CERT": 16571,
+  "ID": "2025014084_820_10718__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "U.S. Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-07-31T00:00:00",
+  "CERT": 6548,
+  "ID": "2025020569_820_4383__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "U.S. Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-09-16T00:00:00",
+  "CERT": 6548,
+  "ID": "2025024282_820_4383__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "U.S. Bank National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-09-19T00:00:00",
+  "CERT": 6548,
+  "ID": "2025024285_820_4383__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Wells Fargo Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-10-01T00:00:00",
+  "CERT": 3511,
+  "ID": "2025025160_820_2239__"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Veritex Community Bank",
+  "EFFDATE": "2025-10-20T00:00:00",
+  "OUT_CERT": 57665,
+  "CERT": 6560,
+  "ID": "2025026228_810_4390_4390_419332"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Wells Fargo Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2025-10-31T00:00:00",
+  "CERT": 3511,
+  "ID": "2026007133_820_2239__"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Comerica Bank",
+  "EFFDATE": "2026-02-01T00:00:00",
+  "OUT_CERT": 983,
+  "CERT": 6672,
+  "ID": "2026004916_810_4470_4470_647"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Comerica Bank & Trust, National Association",
+  "EFFDATE": "2026-02-01T00:00:00",
+  "OUT_CERT": 1596,
+  "CERT": 6672,
+  "ID": "2026004917_810_4470_4470_1040"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "Cadence Bank",
+  "EFFDATE": "2026-02-01T00:00:00",
+  "OUT_CERT": 11813,
+  "CERT": 6560,
+  "ID": "2026005285_810_4390_4390_7557"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Morgan Stanley Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-02-14T00:00:00",
+  "CERT": 32992,
+  "ID": "2026006199_820_46173__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Citibank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-04-01T00:00:00",
+  "CERT": 7213,
+  "ID": "2026010010_820_4759__"
+ },
+ {
+  "CHANGECODE_DESC": "Participated in Absorbtion/Consolidation/Merger",
+  "CHANGECODE": 810,
+  "OUT_INSTNAME": "FirstBank",
+  "EFFDATE": "2026-06-18T00:00:00",
+  "OUT_CERT": 18714,
+  "CERT": 6384,
+  "ID": "2026018925_810_4287_4287_12582"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Fifth Third Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-08-01T00:00:00",
+  "CERT": 6672,
+  "ID": "2026025587_820_4470__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Wells Fargo Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-09-01T00:00:00",
+  "CERT": 3511,
+  "ID": "2026027726_820_2239__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "Wells Fargo Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-09-01T00:00:00",
+  "CERT": 3511,
+  "ID": "2026027727_820_2239__"
+ },
+ {
+  "CHANGECODE_DESC": "Phantom (Interim) Corporate Reorganization",
+  "INSTNAME": "JPMorgan Chase Bank, National Association",
+  "CHANGECODE": 820,
+  "EFFDATE": "2026-10-01T00:00:00",
+  "CERT": 628,
+  "ID": "2026032994_820_417__"
+ }
+]

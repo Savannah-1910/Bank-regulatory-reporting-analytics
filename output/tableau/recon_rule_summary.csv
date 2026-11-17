@@ -1,0 +1,33 @@
+rule_id,rule_name,category,rule_type,rule_logic,records_tested,passed,warnings,failed,pass_rate_pct
+BS01,Balance sheet equation,Balance sheet identity,identity,ASSET = LIAB + EQTOT,680,680,0,0,100.0
+BS02,Total assets = sum of asset lines,Balance sheet identity,identity,ASSET = CHBAL + FREPO + SC + TRADE + LNLSNET + BKPREM + ORE + INTAN + AOA,680,680,0,0,100.0
+BS03,Total liabilities = sum of liability lines,Balance sheet identity,identity,LIAB = DEP + FREPP + TRADEL + OTHBRF + SUBND + ALLOTHL,680,680,0,0,100.0
+BS04,Total equity = bank equity + minority interest,Balance sheet identity,identity,EQTOT = EQ + EQCONSUB,680,680,0,0,100.0
+BS05,Securities = HTM + AFS + equity sec - HTM ACL,Balance sheet identity,identity,SC = SCHA + SCAF + SCEQFV - SCHTMRES,680,680,0,0,100.0
+DP01,Total deposits = domestic + foreign,Deposit identity,identity,DEP = DEPDOM + DEPFOR,680,680,0,0,100.0
+DP02,Domestic deposits = interest + noninterest bearing,Deposit identity,identity,DEPDOM = DEPIDOM + DEPNIDOM,680,680,0,0,100.0
+DQ01,Required fields populated,Completeness,quality,"Key balance sheet, income and capital fields are not NULL",680,680,0,0,100.0
+DQ02,Balances are non-negative,Validity,quality,"Assets, loans, deposits, allowance, securities, RWA >= 0",680,680,0,0,100.0
+IS01,Net interest income = interest inc - interest exp,Income statement identity,identity,NIM = INTINC - EINTEXP,680,680,0,0,100.0
+IS02,Pre-tax income build,Income statement identity,identity,IBEFTAX = NIM + NONII - NONIX - ELNATR + IGLSEC,680,680,0,0,100.0
+IS03,Net income build,Income statement identity,identity,NETINC = IBEFTAX - ITAX + EXTRA - NETIMIN,680,680,0,0,100.0
+IS04,Net charge-offs = charge-offs - recoveries,Income statement identity,identity,NTLNLS = DRLNLS - CRLNLS,680,680,0,0,100.0
+LN01,Net loans = gross loans - allowance,Loan identity,identity,LNLSNET = LNLSGR - LNATRES,680,680,0,0,100.0
+LN02,Gross loans = sum of loan categories - unearned,Loan identity,identity,LNLSGR = LNRE + LNCI + LNCON + LNAG + LNDEP + LNMUNI + LNFG + LS + LNSOTHER - UNINC,680,680,0,0,100.0
+LN03,RE loans = domestic + foreign,Loan identity,identity,LNRE = LNREDOM + LNREFOR,680,680,0,0,100.0
+LN04,Domestic RE loans = sum of property types,Loan identity,identity,LNREDOM = LNRECONS + LNREAG + LNRERES + LNREMULT + LNRENRES,680,680,0,0,100.0
+LN05,Consumer loans = sum of consumer products,Loan identity,identity,LNCON = LNCRCD + LNAUTO + LNCONRP + LNCONOTH,680,680,0,0,100.0
+RG01,Tier 1 leverage >= 5% (well capitalized),Regulatory threshold,threshold,RBC1AAJ >= 5.0; WARN if < 6.0,680,672,8,0,98.82
+RG02,CET1 ratio >= 6.5% (well capitalized),Regulatory threshold,threshold,IDT1CER >= 6.5; WARN if < 7.5,680,680,0,0,100.0
+RG03,Tier 1 RBC ratio >= 8% (well capitalized),Regulatory threshold,threshold,IDT1RWAJR >= 8.0; WARN if < 9.0,680,680,0,0,100.0
+RG04,Total RBC ratio >= 10% (well capitalized),Regulatory threshold,threshold,RBCRWAJ >= 10.0; WARN if < 11.0,680,680,0,0,100.0
+RS01,Deposit insurance estimates reasonable,Reasonableness,quality,DEPINS + DEPUNINS within +/-10% of DEPDOM,680,613,67,0,90.15
+RS02,Total assets QoQ move < 20%,Reasonableness,quality,|ASSET / prior-quarter ASSET - 1| < 20% (larger moves usually = M&A),680,661,19,0,97.21
+RS03,Goodwill <= total intangibles,Reasonableness,quality,INTANGW <= INTAN,680,680,0,0,100.0
+RS04,Allowance present when loans present,Reasonableness,quality,LNATRES > 0 when LNLSGR > 0,680,680,0,0,100.0
+RT01,CET1 ratio recomputes,Ratio recompute,ratio,IDT1CER = RBCT1C / RWAJ,680,680,0,0,100.0
+RT02,Tier 1 risk-based ratio recomputes,Ratio recompute,ratio,IDT1RWAJR = RBCT1J / RWAJ,680,680,0,0,100.0
+RT03,Loan-to-deposit ratio recomputes,Ratio recompute,ratio,LNLSDEPR = LNLSNET / DEP,680,680,0,0,100.0
+RT04,Noncurrent loan ratio recomputes,Ratio recompute,ratio,NCLNLSR = NCLNLS / LNLSGR,680,680,0,0,100.0
+XP01,YTD de-cumulation ties to FDIC quarterly,Cross-period control,control,"YTD(q) - YTD(q-1) = FDIC quarterly field (NETINCQ, NIMQ, NONIIQ, NONIXQ, ELNATQ, NTLNLSQ)",4080,4039,0,41,99.0
+XP02,No missing quarters,Cross-period control,quality,Every bank reports every quarter in the analysis window,680,680,0,0,100.0

@@ -1,0 +1,17 @@
+# DuckDB database is rebuilt from data/raw by `python run_pipeline.py --skip-extract`
+data/*.duckdb
+data/*.duckdb.wal
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Tableau workbooks are published to Tableau Public; keep local copies out of git
+*.twbx.bak
+~$*
+.DS_Store
+
+# Personal interview prep notes - keep local, not for the public repo
+docs/interview_notes_zh.md
